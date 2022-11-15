@@ -18,7 +18,9 @@
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
      map.addControl(new L.Control.Fullscreen());
-     L.control.mousePosition().addTo(map); 
+     L.control.mousePosition().addTo(map);
+      
+     var marker = L.marker([51.14470, -2.69871]).addTo(map);
     </script>
   </body>
 </html>
